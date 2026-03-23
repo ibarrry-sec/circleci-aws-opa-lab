@@ -159,7 +159,7 @@ jobs:
       - run:
           name: Create and Deploy Compliant Infrastructure
           command: |
-            export AWS_ROLE_ARN="arn:aws:iam::YOUR_AWS_ACCOUNT_ID:role/CircleCILabRole"
+            export AWS_ROLE_ARN="arn:aws:iam::373379692259:role/CircleCILabRole"
             export AWS_WEB_IDENTITY_TOKEN_FILE="/tmp/web-identity-token"
             echo $CIRCLE_OIDC_TOKEN > $AWS_WEB_IDENTITY_TOKEN_FILE
             
